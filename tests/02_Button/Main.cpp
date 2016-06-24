@@ -22,7 +22,17 @@ public:
 		btn->setClickFunc([](Ux::Button *self) {
 			self->disable(true);
 		});
+
+		Ux::ButtonPtr btn2 = Ux::createButton(IDR_BUTTON_NORMAL,
+			IDR_BUTTON_DOWN, IDR_BUTTON_OVER, IDR_BUTTON_DISABLE);
+		btn2->x(0);
+		btn2->y(20);
+		btn2->setClickFunc([](Ux::Button *self) {
+			self->disable(true);
+		});
+
 		this->addComponent(btn);
+		this->addComponent(btn2);
 	}
 };
 

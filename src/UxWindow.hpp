@@ -14,7 +14,6 @@
 
 namespace Ux {
 
-class Timer;
 class Window
 {
 public:

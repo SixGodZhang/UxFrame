@@ -3,7 +3,7 @@
 
 namespace Ux {
 
-static std::tr1::unordered_map<ULONG_PTR, Timer*> g_timerMap;
+static std::unordered_map<ULONG_PTR, Timer*> g_timerMap;
 
 Timer::Timer(float interval, std::function<void()> func) :
   handle_(0),

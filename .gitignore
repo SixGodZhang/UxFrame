@@ -33,4 +33,5 @@ bin/
 build/
 *.sdf
 *.suo
+*.opensdf
 

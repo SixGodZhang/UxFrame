@@ -120,7 +120,7 @@ void Button::updateButtonState()
 
 static LRESULT CALLBACK ButtonWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-	static std::tr1::unordered_map<HWND, Button*> btnmap;
+	static std::unordered_map<HWND, Button*> btnmap;
 
 	switch (message)
 	{
