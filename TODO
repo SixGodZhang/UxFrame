@@ -1,12 +1,12 @@
 ==== TODO ====
  * commandline parsing
- * Ux::Label, Gdiplus DrawString, Chinese character problem
  * Ux::IE
+ * Ux::SysTray, system tray and menu control
+ * App - a file downloader
+ * support load resource from file, not just from .exe ?
+ * a ui layout config file? json?
 
 ==== DONE ====
-2013.10.08
- * 
-
 2013.09.30
  * Ux::Timer
  * the Ux::App lifecycle problem, remove onDestroy() && UxApp

@@ -28,10 +28,11 @@
 *.out
 *.app
 
-# Some Directories
+# Others
 bin/
 build/
 *.sdf
 *.suo
 *.opensdf
+*.user
 
