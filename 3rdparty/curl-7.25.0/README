@@ -1,0 +1,4 @@
+# ==== depends on curl-7.25.0 ====
+# 1. build static-lib using curl-7.25.0\vs2010curl.sln, [LIB Release]
+# 2. put include/lib to curl-7.25.0 directory
+# 3. libcurl needs ws2_32.lib, wldap32.lib
