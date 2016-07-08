@@ -2,11 +2,14 @@
  * commandline parsing
  * Ux::IE
  * Ux::SysTray, system tray and menu control
- * App - a file downloader
  * support load resource from file, not just from .exe ?
  * a ui layout config file? json?
+ * 中文显示，会半透明到底图上
 
 ==== DONE ====
+2016.07.08
+ * App - a file downloader
+
 2013.09.30
  * Ux::Timer
  * the Ux::App lifecycle problem, remove onDestroy() && UxApp

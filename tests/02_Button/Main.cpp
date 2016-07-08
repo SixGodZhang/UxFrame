@@ -27,8 +27,8 @@ public:
 			IDR_BUTTON_DOWN, IDR_BUTTON_OVER, IDR_BUTTON_DISABLE);
 		btn2->x(0);
 		btn2->y(20);
-		btn2->setClickFunc([](Ux::Button *self) {
-			self->disable(true);
+		btn2->setClickFunc([btn](Ux::Button *self) {
+			btn->disable(false);
 		});
 
 		this->addComponent(btn);

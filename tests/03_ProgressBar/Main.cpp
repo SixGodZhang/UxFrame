@@ -16,7 +16,7 @@ public:
 	void initComponents()
 	{
 		Ux::ProgressBarPtr pbar = Ux::createProgressBar(IDR_PROGRESS_FG, IDR_PROGRESS_BG);
-		pbar->x(50);
+		pbar->x(5);
 		pbar->y(200);
 		pbar->percent(0.3f);
 		this->addComponent(pbar);

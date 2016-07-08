@@ -35,4 +35,5 @@ build/
 *.suo
 *.opensdf
 *.user
+*.aps
 

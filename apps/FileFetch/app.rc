@@ -1,0 +1,10 @@
+#include "Resource.h"
+IDR_APPICON          ICON         "app.ico"
+IDR_BGIMAGE          RCDATA       "background.png"
+IDR_PROGRESS_BG      RCDATA       "progress_bg.png"
+IDR_PROGRESS_FG      RCDATA       "progress_fg.png"
+IDR_BUTTON_NORMAL    RCDATA       "btn_normal.png"
+IDR_BUTTON_DOWN      RCDATA       "btn_down.png"
+IDR_BUTTON_OVER      RCDATA       "btn_over.png"
+IDR_BUTTON_DISABLE   RCDATA       "btn_disable.png"
+
